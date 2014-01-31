@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/entername"
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:text="Please type your counter name"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/countername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/createnewb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="create new counter" />
+
+    <Button
+        android:id="@+id/gobackb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="go back" />
+
+</LinearLayout>
